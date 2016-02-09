@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+[
+    'class' => TimestampBehavior::className(),
+    'attributes' => [
+        ActiveRecord::EVENT_BEFORE_INSERT => ['${1:date_entered}','${2:date_updated}'],
+        ActiveRecord::EVENT_BEFORE_UPDATE => ['${2:date_updated}'],
+    ],
+],
+]]></content>
+	<tabTrigger>Behta</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - TimestampBehavior Advanced</description>
+</snippet>
