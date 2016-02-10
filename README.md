@@ -375,6 +375,7 @@ There are several methods to install package.
 |--------------------------------- | :----------: |
 | behaviors                        | Beh          |
 | TimestampBehavior                | Beht         |
+| TimestampBehavior (advanced)     | Behta        |
 | SluggableBehavior                | Behs         |
 | BlameableBehavior                | Behb         |
 
