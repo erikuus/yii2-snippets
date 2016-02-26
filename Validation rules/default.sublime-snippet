@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-[['${1:attribute}'$2], 'default'$3{:, 'value' => ${4:value}}],
+[['${1:attribute}'$2], 'default'${3:, 'value' => ${4:value}}],
 ]]></content>
 	<tabTrigger>Vd</tabTrigger>
 	<scope>source.php</scope>
