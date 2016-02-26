@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+[['${1:attribute}'$2], 'filter', 'filter' => function (\$v) {
+	// Do whatever to \$v.
+	return \$v;
+}],
+]]></content>
+	<tabTrigger>Vftr</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation filter</description>
+</snippet>

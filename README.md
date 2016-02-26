@@ -404,6 +404,7 @@ There are several methods to install package.
 | string                           | Vs           |
 | unique                           | Vuni         |
 | url                              | Vu           |
+| filter                           | Vftr         |
 
 
 ### Database Migration
