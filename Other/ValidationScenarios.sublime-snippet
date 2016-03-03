@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @inheritdoc
+ */
+public function scenarios() {
+    return [
+        '${1:login}' => ['${2:username}',  '${3:password}'${4:}],
+        '${5:register}' => ['${6:username}',  '${7:email}',  '${8:password}'${9:}]
+    ];
+}
+]]></content>
+	<tabTrigger>Vscn</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation Scenarios</description>
+</snippet>
