@@ -6,6 +6,7 @@
         self::EVENT_BEFORE_INSERT => ['${1:date_entered}','${2:date_updated}'],
         self::EVENT_BEFORE_UPDATE => ['${2:date_updated}'],
     ],
+	${3:'value' => new Expression('NOW()')}
 ],
 ]]></content>
 	<tabTrigger>Behta</tabTrigger>

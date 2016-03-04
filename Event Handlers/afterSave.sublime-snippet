@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @inheritdoc
+ */
+public function afterSave(\$insert, \$changedAttributes)
+{
+	${1:// ...custom code here...}
+	return parent::afterSave(\$insert, \$changedAttributes);
+}
+]]></content>
+    <tabTrigger>Eas</tabTrigger>
+    <scope>source.php</scope>
+    <description>Yii2 - Event afterSave</description>
+</snippet>

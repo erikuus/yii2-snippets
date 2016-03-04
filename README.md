@@ -17,13 +17,14 @@ Useful Yii2 snippets for [Sublime text](https://sublimetext.com)
 - [User](#user)
 - [Session](#session)
 - [Cache](#cache)
-- [Active Record ](#active-record)
+- [Active Record](#active-record)
 - [Displaying Data](#displaying-data)
 - [Base Yii](#base-yii)
 - [Register](#register)
 - [Render](#render)
 - [Behaviors](#behaviors)
 - [Validation rules](#validation-rules)
+- [Validation scenarios](#validation-scenarios)
 - [Database Migration](#database-migration)
 - [Database Schema](#database-schema)
 - [Other](#other)
@@ -406,6 +407,25 @@ There are several methods to install package.
 | url                              | Vu           |
 | filter                           | Vftr         |
 
+### Validation Scenarios
+
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| Validation Scenarios             | VS           |
+| Validation Scenarios Advanced    | VSa          |
+
+### Event Handlers
+
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| beforeValidate                   | Ebv          |
+| beforeSave                       | Ebs          |
+| beforeDelete                     | Ebd          |
+| afterValidate                    | Eav          |
+| afterSave                        | Eas          |
+| afterDelete                      | Ead          |
+| afterFind                        | Eaf          |
+
 
 ### Database Migration
 
@@ -461,7 +481,6 @@ There are several methods to install package.
 |--------------------------------- | :----------: |
 | ActiveDataProvider               | Adp          |
 | transaction                      | Tra          |
-| Validation Scenarios             | Vscn         |
 
 
 ### Todos

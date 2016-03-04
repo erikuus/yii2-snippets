@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @inheritdoc
+ */
+public function afterValidate()
+{
+    ${1:// ...custom code here...}
+    return parent::afterValidate()
+}
+]]></content>
+    <tabTrigger>Eav</tabTrigger>
+    <scope>source.php</scope>
+    <description>Yii2 - Event afterValidate</description>
+</snippet>

@@ -4,6 +4,7 @@
     'class' => TimestampBehavior::className(),
     'createdAtAttribute' => '${1:created_at}',
     'updatedAtAttribute' => '${2:updated_at}',
+    ${3:'value' => new Expression('NOW()')}
 ],
 ]]></content>
 	<tabTrigger>Beht</tabTrigger>

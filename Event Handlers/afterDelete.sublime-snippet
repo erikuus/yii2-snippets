@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @inheritdoc
+ */ 
+public function afterDelete()
+{
+    ${1:// ...custom code here...}
+    return parent::afterDelete()
+}
+]]></content>
+    <tabTrigger>Ead</tabTrigger>
+    <scope>source.php</scope>
+    <description>Yii2 - Event afterDelete</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @inheritdoc
+ */
+public function afterFind()
+{
+    ${1:// ...custom code here...}
+    return parent::afterFind()
+}
+]]></content>
+    <tabTrigger>Eaf</tabTrigger>
+    <scope>source.php</scope>
+    <description>Yii2 - Event afterFind</description>
+</snippet>

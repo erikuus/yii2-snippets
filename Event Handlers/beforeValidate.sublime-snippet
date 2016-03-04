@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+/**
+ * @inheritdoc
+ */
+public function beforeValidate()
+{
+    ${1:// ...custom code here...}
+    return parent::beforeValidate();
+}
+]]></content>
+    <tabTrigger>Ebv</tabTrigger>
+    <scope>source.php</scope>
+    <description>Yii2 - Event beforeValidate</description>
+</snippet>
