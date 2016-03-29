@@ -19,7 +19,6 @@ Useful Yii2 snippets for [Sublime text](https://sublimetext.com)
 - [Cache](#cache)
 - [Active Record](#active-record)
 - [Displaying Data](#displaying-data)
-- [Base Yii](#base-yii)
 - [Register](#register)
 - [Render](#render)
 - [Behaviors](#behaviors)
@@ -27,6 +26,7 @@ Useful Yii2 snippets for [Sublime text](https://sublimetext.com)
 - [Validation scenarios](#validation-scenarios)
 - [Database Migration](#database-migration)
 - [Database Schema](#database-schema)
+- [RBAC](#rbac)
 - [Other](#other)
 - [Todos](#todos)
 - [License](#license)
@@ -48,9 +48,13 @@ There are several methods to install package.
 
 | Method                           | Snippet code |
 |--------------------------------- | :----------: |
-| t                                | Yt           |
+| translate                        | Yt           |
+| echo translate                   | Yte          |
 | setAlias                         | Ysa          |
 | getAlias                         | Yga          |
+| user                             | Yu           |
+| controller                       | Yc           |
+| action                           | Ya           |
 
 
 ### Html
@@ -336,17 +340,7 @@ There are several methods to install package.
 | ListView                         | Lw           |
 | GridView                         | Gw           |
 | LinkPager                        | Lp           |
-| echo translate                   | Yte          |
 | HtmlPurifier                     | HPp          |
-
-
-### Base Yii
-
-| Method                           | Snippet code |
-|--------------------------------- | :----------: |
-| user                             | Yu           |
-| controller                       | Yc           |
-| action                           | Ya           |
 
 
 ### Register
@@ -473,6 +467,21 @@ There are several methods to install package.
 | date                             | DSdt         |
 | boolean                          | DSbool       |
 | binary                           | DSbin        |
+
+### RBAC
+
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| createPermission                 | RBcp         |
+| define rule                      | RBdr         |
+| define rule isOwner              | RBdro        |
+| define rule isSelf               | RBdrs        |
+| add rules                        | RBar         |
+| createPermission with rule       | RBcpwr       |
+| createRole                       | RBcr         |
+| assign role/permission to user   | RBa          |
+| assign to user after save        | RBaas        |
+| enforce authorization            | RBea         |
 
 
 ### Other

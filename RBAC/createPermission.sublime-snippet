@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$auth = Yii::\$app->authManager;
+\$${1:createPage} = \$auth->createPermission('${1:createPage}');
+\$${1:createPage}->description = '${2:Create a page}';
+\$auth->add(\$${1:createPage});
+]]></content>
+	<tabTrigger>RBcp</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - RBAC createPermission</description>
+</snippet>

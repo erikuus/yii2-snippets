@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+\$${1:updateOwnPage} = \$auth->createPermission('${1:updateOwnPage}');
+\$${1:updateOwnPage}->description = '${2:Update your own page}';
+\$${1:updateOwnPage}->ruleName = \$${3:isOwner}->name;
+\$auth->add(\$${1:updateOwnPage});
+]]></content>
+	<tabTrigger>RBcpwr</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - RBAC createPermission with rule</description>
+</snippet>

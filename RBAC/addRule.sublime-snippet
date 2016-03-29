@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\$auth = Yii::\$app->authManager;
+\$${1:isOwner} = new \\${2:app}\rbac\\${3:OwnerRule};
+\$auth->add(\$${1:isOwner});
+]]></content>
+	<tabTrigger>RBar</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - RBAC add rule</description>
+</snippet>

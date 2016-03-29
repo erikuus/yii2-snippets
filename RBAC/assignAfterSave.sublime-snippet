@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * @inheritdoc
+ */
+public function afterSave(\$insert, \$changedAttributes)
+{
+    // revoke and assign role
+    if (array_key_exists('${1:role_name}', \$changedAttributes)) {
+        \$auth = Yii::\$app->authManager;
+        \$auth->revokeAll(\$this->id);
+        if (\$this->${1:role_name} && !in_array(\$this->${1:role_name}, array_keys(\$auth->getRolesByUser(\$this->id)))) {
+            \$role = \$auth->getRole(\$this->${1:role_name});
+            \$auth->assign(\$role, \$this->id);
+        }
+    }
+    return parent::afterSave(\$insert, \$changedAttributes);
+}
+
+]]></content>
+	<tabTrigger>RBaas</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - RBAC assign role/permission to user after save</description>
+</snippet>

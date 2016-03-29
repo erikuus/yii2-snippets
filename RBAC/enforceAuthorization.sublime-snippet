@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+if (!Yii::\$app->user->can('${1:updatePage}')) {
+    if (!Yii::\$app->user->can('${2:updateOwnPage}', ['model' => \$model])) {
+        throw new ForbiddenHttpException();
+    }
+}
+]]></content>
+	<tabTrigger>RBea</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - RBAC enforce authorization</description>
+</snippet>
