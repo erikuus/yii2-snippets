@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+Yii::\$app->mailer->compose('${1:view}', ['${2:paramName}' => \$${3:value}])
+    ->setFrom('${4:from@domain.com}')
+    ->setTo(\$${5:email})
+    ->setSubject(\$${5:subject})
+    ->send();
+]]></content>
+  <tabTrigger>SMv</tabTrigger>
+  <description>Yii2 - SwiftMailer send email with view</description>
+  <scope>source.php</scope>
+</snippet>

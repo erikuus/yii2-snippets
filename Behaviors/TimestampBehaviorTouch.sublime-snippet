@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+\$${1:model}->touch('${2:lastVisit}');
+]]></content>
+	<tabTrigger>Btouch</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - TimestampBehavior touch</description>
+</snippet>

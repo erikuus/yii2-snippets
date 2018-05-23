@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+E
+]]></content>
+	<tabTrigger>IE</tabTrigger>
+	<scope>text.html, source.php</scope>
+	<description>Yii2 - E -  Events</description>
+</snippet>

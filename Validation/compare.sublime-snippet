@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+// validates if the value of "attribute" attribute equals to that of "attribute_repeat"
+[['${1:attribute}'], 'compare'],
+// validates if the value of "attribute" attribute equals to that of another attribute
+[['${1:attribute}'], 'compare', 'compareAttribute' => '${2:anotherAttribute}'],
+// validates if age is greater than or equal to 30
+[['${1:attribute}'], 'compare', 'compareValue' => ${3:30}, 'operator' => '${4:>=}'],
+]]></content>
+	<tabTrigger>Vcompare</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation compare</description>
+</snippet>

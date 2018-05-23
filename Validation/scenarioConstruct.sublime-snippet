@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+['scenario' => '${1:scenarioName}']
+]]></content>
+    <tabTrigger>VscenarioSet</tabTrigger>
+    <scope>source.php</scope>
+    <description>Yii2 - Scenario Construct</description>
+</snippet>

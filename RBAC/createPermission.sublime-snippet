@@ -5,7 +5,7 @@
 \$${1:createPage}->description = '${2:Create a page}';
 \$auth->add(\$${1:createPage});
 ]]></content>
-	<tabTrigger>RBcp</tabTrigger>
+	<tabTrigger>RBpermission</tabTrigger>
 	<scope>source.php</scope>
 	<description>Yii2 - RBAC createPermission</description>
 </snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+B
+]]></content>
+	<tabTrigger>IB</tabTrigger>
+	<scope>text.html, source.php</scope>
+	<description>Yii2 - B -  Behaviors</description>
+</snippet>

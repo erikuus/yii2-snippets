@@ -6,10 +6,10 @@
         self::EVENT_BEFORE_INSERT => ['${1:date_entered}','${2:date_updated}'],
         self::EVENT_BEFORE_UPDATE => ['${2:date_updated}'],
     ],
-	${3:'value' => new Expression('NOW()')}
+    ${3:'value' => new Expression('NOW()')}
 ],
 ]]></content>
-	<tabTrigger>Behta</tabTrigger>
+	<tabTrigger>Btime2</tabTrigger>
 	<scope>source.php</scope>
-	<description>Yii2 - TimestampBehavior Advanced</description>
+	<description>Yii2 - TimestampBehavior adv.</description>
 </snippet>

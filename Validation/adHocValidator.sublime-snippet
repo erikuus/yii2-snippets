@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$email = 'test@example.com';
+\$validator = new yii\validators\EmailValidator();
+
+if (\$validator->validate(\$email, \$error)) {
+    echo 'Email is valid.';
+} else {
+    echo \$error;
+}
+]]></content>
+	<tabTrigger>Vadhoc</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation ad hoc validator</description>
+</snippet>

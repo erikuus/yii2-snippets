@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[['${1:attribute}'$2], 'email'${3:${4:, 'allowName' => ${5:true}}${6:, 'checkDNS' => ${7:true}}}],
+]]></content>
+	<tabTrigger>Vemail</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation email</description>
+</snippet>

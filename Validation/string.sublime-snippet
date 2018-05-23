@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[['${1:attribute}'$2], 'string'${3:, ${4:'min' => ${5:10},} ${6:'max' => ${7:100},} ${8:'tooShort' => 'The \{attribute\} is too short',} ${9:'tooLong' => 'The \{attribute\} is too long'}}],
+]]></content>
+	<tabTrigger>Vstring</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation string</description>
+</snippet>

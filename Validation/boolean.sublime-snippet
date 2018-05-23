@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+// checks if "selected" is either 0 or 1, regardless of data type
+[['${1:attribute}'$2], 'boolean'],
+// checks if "deleted" is of boolean type, either true or false
+[['${1:attribute}'$2], 'boolean', 'trueValue' => true, 'falseValue' => false, 'strict' => true],
+]]></content>
+	<tabTrigger>Vboolean</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation boolean</description>
+</snippet>

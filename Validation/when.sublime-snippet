@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+, 'when' => function (\$model, \$attribute) {
+    return \$model->${1:attributeName} == ${2:someValue};
+}, 'whenClient' => "function (attribute, value) {
+    return \$('#${3:attributeId}').val() == ${2:someValue};
+}"
+]]></content>
+	<tabTrigger>Vwhen</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation when condition</description>
+</snippet>

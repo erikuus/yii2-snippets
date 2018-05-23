@@ -2,7 +2,7 @@
 	<content><![CDATA[
 /**
  * @inheritdoc
- */        
+ */
 public function behaviors()
 {
     return [
@@ -24,7 +24,7 @@ public function behaviors()
     ];
 }
 ]]></content>
-	<tabTrigger>Beh</tabTrigger>
+	<tabTrigger>B</tabTrigger>
 	<scope>source.php</scope>
 	<description>Yii2 - Default Behaviors</description>
 </snippet>

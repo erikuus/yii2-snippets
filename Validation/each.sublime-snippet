@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+// this validator only works with an array attribute
+// rule specifies the class name or the alias of the validator
+// this one checks if every element of attribute array is an integer
+[['${1:attribute}'$2], 'each', 'rule' => ['${3:integer}']],
+]]></content>
+	<tabTrigger>Veach</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation each</description>
+</snippet>

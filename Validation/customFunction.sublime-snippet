@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+/**
+ * This is a validator as declared in rules().
+ */
+public function ${1:someCustomValidator}(\$attribute, \$params)
+{
+    if (!\$this->hasErrors()) {
+        if (${2:condition}) {
+            \$this->addError(\$attribute, Yii::t('app', '${3:error message}'));
+        }
+    }
+}
+]]></content>
+  <tabTrigger>VcustomFunc</tabTrigger>
+  <description>Yii2 - Validation custom function</description>
+  <scope>source.php</scope>
+</snippet>

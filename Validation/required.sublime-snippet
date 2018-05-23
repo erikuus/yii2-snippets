@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+// other properties
+// requiredValue: the desired value that the input should be.
+// strict: whether to check data types when validating a value.
+[['${1:attribute}'$2], 'required'${3:, 'when' => function (\$model, \$attribute) {
+    return \$model->${4:attributeName} == ${5:someValue};
+\}}]
+]]></content>
+	<tabTrigger>Vrequ</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation required</description>
+</snippet>

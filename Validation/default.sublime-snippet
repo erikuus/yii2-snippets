@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+// set default value to null
+[['${1:attribute}'$2], 'default', 'value' => ${3:null}],
+// assign "from" and "to" with a date 3 days and 6 days from today, if they are empty
+[['${4:from}', '${5:to}'], 'default', 'value' => function (\$model, \$attribute) {
+    return date('Y-m-d', strtotime(\$attribute === '${5:to}' ? '+3 days' : '+6 days'));
+}],
+]]></content>
+	<tabTrigger>Vdefault</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation default</description>
+</snippet>

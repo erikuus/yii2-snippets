@@ -1,8 +1,0 @@
-<snippet>
-	<content><![CDATA[
-[['${1:attribute}'$2], 'boolean'],
-]]></content>
-	<tabTrigger>Vb</tabTrigger>
-	<scope>source.php</scope>
-	<description>Yii2 - Validation boolean</description>
-</snippet>

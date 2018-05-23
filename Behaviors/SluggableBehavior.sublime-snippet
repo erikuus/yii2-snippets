@@ -6,7 +6,7 @@
     'slugAttribute' => '${2:url}',
 ],
 ]]></content>
-	<tabTrigger>Behs</tabTrigger>
+	<tabTrigger>Bslug</tabTrigger>
 	<scope>source.php</scope>
-	<description>Yii2 - SluggableBehaviorr</description>
+	<description>Yii2 - SluggableBehavior</description>
 </snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+[['${1:attribute}'$2], '${3:someCustomValidator}' ${4:, 'skipOnEmpty' => false, 'skipOnError' => false}],
+[['${1:attribute}'$2], function (\$attribute, \$params) {
+    if (${5:!ctype_alnum(\$this->\$attribute)}) {
+        \$this->addError(\$attribute, '${6:The token must contain letters or digits.}');
+    }
+}],
+]]></content>
+  <tabTrigger>Vcustom</tabTrigger>
+  <description>Yii2 - Validation custom</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+RB
+]]></content>
+	<tabTrigger>IRB</tabTrigger>
+	<scope>text.html, source.php</scope>
+	<description>Yii2 - RB -  RBAC</description>
+</snippet>

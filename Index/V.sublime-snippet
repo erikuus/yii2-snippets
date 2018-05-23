@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+V
+]]></content>
+	<tabTrigger>IV</tabTrigger>
+	<scope>text.html, source.php</scope>
+	<description>Yii2 - V -  Validation</description>
+</snippet>

@@ -4,6 +4,12 @@ Useful Yii2 snippets for [Sublime text](https://sublimetext.com)
 
 
 ## Navigation
+- [Index](#index)
+- [Behaviors](#behaviors)
+- [Events](#events)
+- [Validation rules](#validation-rules)
+- [RBAC](#rbac)
+
 - [Installation](#installation)
 - [Yii](#yii)
 - [Html](#html)
@@ -21,14 +27,10 @@ Useful Yii2 snippets for [Sublime text](https://sublimetext.com)
 - [Displaying Data](#displaying-data)
 - [Register](#register)
 - [Render](#render)
-- [Behaviors](#behaviors)
-- [Validation rules](#validation-rules)
 - [Validation scenarios](#validation-scenarios)
 - [Database Migration](#database-migration)
 - [Database Schema](#database-schema)
-- [RBAC](#rbac)
 - [Other](#other)
-- [Todos](#todos)
 - [License](#license)
 - [PS](#ps)
 
@@ -39,10 +41,97 @@ There are several methods to install package.
 
 1. Search for Yii2 Snippets on Package Control.
 
-2. Clone the repository into your Sublime Text 2/3 packages directory. ```git clone https://github.com/filipyev/yii2-snippets.git ```
+2. Clone the repository into your Sublime Text 2/3 packages directory.
 **Note:** You can find your packages directory by going to Preferences -> Browse Packages.
 
+### Index
 
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| Behaviors                        | IB           |
+| Events                           | IE           |
+| Validation                       | IV           |
+| RBAC                             | IRB          |
+
+### Behaviors
+
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| behaviors                        | B            |
+| SluggableBehavior                | Bslug        |
+| BlameableBehavior                | Bblame       |
+| TimestampBehavior                | Btime        |
+| TimestampBehavior advanced       | Btime2       |
+| TimestampBehavior touch          | Btouch       |
+
+### Events
+
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| beforeValidate                   | Ebv          |
+| beforeSave                       | Ebs          |
+| beforeDelete                     | Ebd          |
+| afterValidate                    | Eav          |
+| afterSave                        | Eas          |
+| afterDelete                      | Ead          |
+| afterFind                        | Eaf          |
+
+### Validation
+
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| boolean                          | Vboolean     |
+| captcha                          | Vcaptcha     |
+| compare                          | Vcompare     |
+| default                          | Vdefault     |
+| double                           | Vdouble      |
+| each                             | Veach        |
+| email                            | Vemail       |
+| required                         | Vrequired    |
+| trim                             | Vtrim        |
+| date                             | Vdate        |
+| exist                            | Vexist       |
+| file                             | Vfile        |
+| in                               | Vin          |
+| integer                          | Vinteger     |
+| number                           | Vnumber      |
+| match                            | Vmatch       |
+| safe                             | Vsafe        |
+| string                           | Vstring      |
+| unique                           | Vunique      |
+| url                              | Vurl         |
+| filter                           | Vfilter      |
+| custom                           | Vcustom      |
+| custom function                  | VcustomFunc  |
+| when conditon                    | Vwhen        |
+| ad hoc validator                 | Vadhoc       |
+| ad hoc dynamic model             | Vadhoc2      |
+| scenarios                        | Vscenarios   |
+| scenarios advanced               | Vscenarios2  |
+| scenario construct               | VscenarioSet |
+
+### RBAC
+
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| createPermission                 | RBpermission |
+| define rule                      | RBdr         |
+| define rule isOwner              | RBdro        |
+| define rule isSelf               | RBdrs        |
+| add rules                        | RBar         |
+| createPermission with rule       | RBcpwr       |
+| createRole                       | RBcr         |
+| assign role/permission to user   | RBa          |
+| assign to user after save        | RBaas        |
+| enforce authorization            | RBea         |
+
+### Json
+
+| Method                           | Snippet code |
+|--------------------------------- | :----------: |
+| encode                           | Je           |
+| htmlEncode                       | Jhe          |
+| decode                           | Jd           |
 
 ### Yii
 
@@ -163,15 +252,6 @@ There are several methods to install package.
 | current                          | Uc           |
 | home                             | Uh           |
 | isRelative                       | Uir          |
-
-
-### Json
-
-| Method                           | Snippet code |
-|--------------------------------- | :----------: |
-| encode                           | Je           |
-| htmlEncode                       | Jhe          |
-| decode                           | Jd           |
 
 
 ### StringHelper
@@ -331,6 +411,7 @@ There are several methods to install package.
 | model-updateAll                  | Mua          |
 | model-updateAllCounters          | Muac         |
 | model-deleteAll                  | Mda          |
+| model-newScenario                | Mns          |
 
 
 ### Displaying Data
@@ -362,63 +443,6 @@ There are several methods to install package.
 | renderHtml                       | RDh          |
 | renderPartial                    | RDp          |
 | renderAjax                       | RDa          |
-
-
-### Behaviors
-
-| Method                           | Snippet code |
-|--------------------------------- | :----------: |
-| behaviors                        | Beh          |
-| TimestampBehavior                | Beht         |
-| TimestampBehavior (advanced)     | Behta        |
-| SluggableBehavior                | Behs         |
-| BlameableBehavior                | Behb         |
-
-
-### Validation rules
-
-| Method                           | Snippet code |
-|--------------------------------- | :----------: |
-| required                         | Vr           |
-| email                            | Ve           |
-| trim                             | Vt           |
-| default                          | Vd           |
-| boolean                          | Vb           |
-| captcha                          | Vcapt        |
-| compare                          | Vcomp        |
-| date                             | Vdt          |
-| double                           | Vdb          |
-| each                             | Veach        |
-| exist                            | Vex          |
-| file                             | Vf           |
-| in                               | Vin          |
-| integer                          | Vi           |
-| number                           | Vn           |
-| match                            | Vc           |
-| safe                             | Vsf          |
-| string                           | Vs           |
-| unique                           | Vuni         |
-| url                              | Vu           |
-| filter                           | Vftr         |
-
-### Validation Scenarios
-
-| Method                           | Snippet code |
-|--------------------------------- | :----------: |
-| Validation Scenarios             | VS           |
-| Validation Scenarios Advanced    | VSa          |
-
-### Event Handlers
-
-| Method                           | Snippet code |
-|--------------------------------- | :----------: |
-| beforeValidate                   | Ebv          |
-| beforeSave                       | Ebs          |
-| beforeDelete                     | Ebd          |
-| afterValidate                    | Eav          |
-| afterSave                        | Eas          |
-| afterDelete                      | Ead          |
-| afterFind                        | Eaf          |
 
 
 ### Database Migration
@@ -468,21 +492,6 @@ There are several methods to install package.
 | boolean                          | DSbool       |
 | binary                           | DSbin        |
 
-### RBAC
-
-| Method                           | Snippet code |
-|--------------------------------- | :----------: |
-| createPermission                 | RBcp         |
-| define rule                      | RBdr         |
-| define rule isOwner              | RBdro        |
-| define rule isSelf               | RBdrs        |
-| add rules                        | RBar         |
-| createPermission with rule       | RBcpwr       |
-| createRole                       | RBcr         |
-| assign role/permission to user   | RBa          |
-| assign to user after save        | RBaas        |
-| enforce authorization            | RBea         |
-
 
 ### Other
 
@@ -491,20 +500,6 @@ There are several methods to install package.
 | ActiveDataProvider               | Adp          |
 | transaction                      | Tra          |
 
-
-### Todos
-
- - ~~Add ListView, GridView and ect...~~
- - ~~Add cache~~
- - ~~Add "render" snippets~~
- - ~~Add find model with params~~
- - ~~Add DataProvider~~
- - ~~Add default behaviors (TimestampBehavior and ect...)~~
- - ~~Add validation rules~~
- - ~~Add DB Migration~~
- - Add use statements
- - Add other useful snippets
- - Improve shortcuts
 
 
 ### License

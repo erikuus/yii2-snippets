@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+[['${1:attribute}'$2], 'integer'${3:, ${4:'min' => ${5:10},} ${6:'max' => ${7:100},} ${8:'tooSmall' => 'The \{attribute\} is too small',} ${9:'tooBig' => 'The \{attribute\} is too big'}}],
+]]></content>
+	<tabTrigger>Vinteger</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation integer</description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+Yii::\$app->mailer->compose()
+    ->setTo(\$${1:to)
+    ->setFrom(\$${2:from})
+    ->setSubject(\$${3:subject})
+    ->setTextBody(\$${4:body})
+    ->send();
+]]></content>
+  <tabTrigger>SMb</tabTrigger>
+  <description>Yii2- SwiftMailer send email with body</description>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+\$date = '2016-07-30 12:00:00';
+\$email = 'test@example.com';
+\$dynamicModel = DynamicModel::validateData(compact('${1:date}', '${2:email}'${3:}), [
+    [['${1:date}'], 'date', 'format' => 'php:Y-m-d H:i:s'],
+    [['${2:email}'], 'email'],
+]);
+if (\$dynamicModel->hasErrors()) {
+     // validation fails
+     // var_dump(\$dynamicModel->getErrors());
+}
+]]></content>
+	<tabTrigger>Vadhoc2</tabTrigger>
+	<scope>source.php</scope>
+	<description>Yii2 - Validation ad hoc dynamic model</description>
+</snippet>

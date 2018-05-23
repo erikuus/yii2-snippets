@@ -6,7 +6,7 @@
     'updatedByAttribute' => '${2:updater_by}',
 ],
 ]]></content>
-	<tabTrigger>Behb</tabTrigger>
+	<tabTrigger>Bblame</tabTrigger>
 	<scope>source.php</scope>
 	<description>Yii2 - BlameableBehaviorr</description>
 </snippet>

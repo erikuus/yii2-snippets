@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+\$model = new ${1:User}(['scenario' => '${2:register}']);
+]]></content>
+  <tabTrigger>Mns</tabTrigger>
+  <description>Yii2 - new Model scenario</description>
+  <scope>source.php</scope>
+</snippet>
